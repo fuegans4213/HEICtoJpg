@@ -1,0 +1,3 @@
+#ignore dist and build
+dist/
+build/
