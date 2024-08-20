@@ -1,12 +1,12 @@
 # -*- mode: python ; coding: utf-8 -*-
-#pyinstaller --onefile --windowed --add-data "ImageMagick-6.9.13-14-portable-Q16-HDRI-x64;ImageMagick-6.9.13-14-portable-Q16-HDRI-x64" HeicToJpg.py
+
 
 a = Analysis(
     ['HeicToJpg.py'],
     pathex=[],
     binaries=[],
     datas=[('ImageMagick-6.9.13-14-portable-Q16-HDRI-x64', 'ImageMagick-6.9.13-14-portable-Q16-HDRI-x64')],
-    hiddenimports=['tk'],
+    hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
